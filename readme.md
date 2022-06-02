@@ -2,11 +2,11 @@
 (주의, 파이썬 기본으로 내장되어있는 idle 에서 작동하지 않습니다, 터미널이나 명령 프롬프트 같은 것을 이용해 주세요.)
 
 사용법은 간단합니다. 세가지 코드만 알면 됩니다.
-
+```
 import colorprinter as cp
 cp.color()
 cp.uncolor()
-
+```
 ## color() 함수 사용법
 예시 : color([글자 색:str], [배경색:str])
 
