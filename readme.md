@@ -10,6 +10,10 @@ cp.uncolor()
 ```
 ## color() 함수 사용법
 예시 : color([글자 색:str], [배경색:str])
+```
+cp.color("byellow","bblue")
+print("Sample Text")
+```
 
 만약 색을 변경하지 않을 경우 none 을 넣으면 유지가 됩니다.
 아래에 있는 색깔만 사용 가능합니다.
@@ -22,7 +26,8 @@ cp.uncolor()
 예시 :
 ```
 import colorprinter as cp
-
+cp.color("byellow","bblue")
+print("Sample Text")
 ...
 
 cp.uncolor()
