@@ -33,9 +33,9 @@ def color(tc,bc):
                 return
     ##
     if tnum != 0:
-        print("\033[%dm"%tnum)
+        print("\033[%dm"%tnum,end="")
     if bnum != 0:
-        print("\033[%dm"%bnum)
+        print("\033[%dm"%bnum,end="")
     
 def uncolor():
-    print("\033[0m")
+    print("\033[0m",end="")
